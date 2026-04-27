@@ -1,0 +1,424 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!181963792 &2655988077585873504
+Preset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: DeplacementPersonnage-Reponsif
+  m_TargetType:
+    m_NativeTypeID: 114
+    m_ManagedTypePPtr: {fileID: 11500000, guid: 349ff294326919242a7cfa50ab47fdb2, type: 3}
+    m_ManagedTypeFallback: 
+  m_Properties:
+  - target: {fileID: 0}
+    propertyPath: m_Enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorHideFlags
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorClassIdentifier
+    value: Assembly-CSharp::Personnage
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: rbVitesseX
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: actionMarche.m_Name
+    value: Action Marche
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: actionMarche.m_Type
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: actionMarche.m_ExpectedControlType
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: actionMarche.m_Id
+    value: b15b84d9-b488-4438-8190-535162211b70
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: actionMarche.m_Processors
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: actionMarche.m_Interactions
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: actionMarche.m_SingletonActionBindings.Array.size
+    value: 6
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: actionMarche.m_SingletonActionBindings.Array.data[0].m_Name
+    value: AD
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: actionMarche.m_SingletonActionBindings.Array.data[0].m_Id
+    value: 89c8fd0b-9447-434d-ac22-4475fdde51fc
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: actionMarche.m_SingletonActionBindings.Array.data[0].m_Path
+    value: 1DAxis
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: actionMarche.m_SingletonActionBindings.Array.data[0].m_Interactions
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: actionMarche.m_SingletonActionBindings.Array.data[0].m_Processors
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: actionMarche.m_SingletonActionBindings.Array.data[0].m_Groups
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: actionMarche.m_SingletonActionBindings.Array.data[0].m_Action
+    value: Action Marche
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: actionMarche.m_SingletonActionBindings.Array.data[0].m_Flags
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: actionMarche.m_SingletonActionBindings.Array.data[1].m_Name
+    value: negative
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: actionMarche.m_SingletonActionBindings.Array.data[1].m_Id
+    value: 14fa06ad-d034-45f0-a4c2-1adff41e05de
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: actionMarche.m_SingletonActionBindings.Array.data[1].m_Path
+    value: <Keyboard>/a
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: actionMarche.m_SingletonActionBindings.Array.data[1].m_Interactions
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: actionMarche.m_SingletonActionBindings.Array.data[1].m_Processors
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: actionMarche.m_SingletonActionBindings.Array.data[1].m_Groups
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: actionMarche.m_SingletonActionBindings.Array.data[1].m_Action
+    value: Action Marche
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: actionMarche.m_SingletonActionBindings.Array.data[1].m_Flags
+    value: 8
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: actionMarche.m_SingletonActionBindings.Array.data[2].m_Name
+    value: positive
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: actionMarche.m_SingletonActionBindings.Array.data[2].m_Id
+    value: c0265050-2645-4ad0-a970-ba8c460fcf79
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: actionMarche.m_SingletonActionBindings.Array.data[2].m_Path
+    value: <Keyboard>/d
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: actionMarche.m_SingletonActionBindings.Array.data[2].m_Interactions
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: actionMarche.m_SingletonActionBindings.Array.data[2].m_Processors
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: actionMarche.m_SingletonActionBindings.Array.data[2].m_Groups
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: actionMarche.m_SingletonActionBindings.Array.data[2].m_Action
+    value: Action Marche
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: actionMarche.m_SingletonActionBindings.Array.data[2].m_Flags
+    value: 8
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: actionMarche.m_SingletonActionBindings.Array.data[3].m_Name
+    value: Fleches
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: actionMarche.m_SingletonActionBindings.Array.data[3].m_Id
+    value: f2f9f42f-7eaf-497d-9d6a-6c78714cdbf9
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: actionMarche.m_SingletonActionBindings.Array.data[3].m_Path
+    value: 1DAxis
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: actionMarche.m_SingletonActionBindings.Array.data[3].m_Interactions
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: actionMarche.m_SingletonActionBindings.Array.data[3].m_Processors
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: actionMarche.m_SingletonActionBindings.Array.data[3].m_Groups
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: actionMarche.m_SingletonActionBindings.Array.data[3].m_Action
+    value: Action Marche
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: actionMarche.m_SingletonActionBindings.Array.data[3].m_Flags
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: actionMarche.m_SingletonActionBindings.Array.data[4].m_Name
+    value: negative
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: actionMarche.m_SingletonActionBindings.Array.data[4].m_Id
+    value: c13e8596-5eff-47de-9302-415bcd7ebd0e
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: actionMarche.m_SingletonActionBindings.Array.data[4].m_Path
+    value: <Keyboard>/leftArrow
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: actionMarche.m_SingletonActionBindings.Array.data[4].m_Interactions
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: actionMarche.m_SingletonActionBindings.Array.data[4].m_Processors
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: actionMarche.m_SingletonActionBindings.Array.data[4].m_Groups
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: actionMarche.m_SingletonActionBindings.Array.data[4].m_Action
+    value: Action Marche
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: actionMarche.m_SingletonActionBindings.Array.data[4].m_Flags
+    value: 8
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: actionMarche.m_SingletonActionBindings.Array.data[5].m_Name
+    value: positive
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: actionMarche.m_SingletonActionBindings.Array.data[5].m_Id
+    value: ebe893f9-326a-428a-8a72-9038c03e8fe6
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: actionMarche.m_SingletonActionBindings.Array.data[5].m_Path
+    value: <Keyboard>/rightArrow
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: actionMarche.m_SingletonActionBindings.Array.data[5].m_Interactions
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: actionMarche.m_SingletonActionBindings.Array.data[5].m_Processors
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: actionMarche.m_SingletonActionBindings.Array.data[5].m_Groups
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: actionMarche.m_SingletonActionBindings.Array.data[5].m_Action
+    value: Action Marche
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: actionMarche.m_SingletonActionBindings.Array.data[5].m_Flags
+    value: 8
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: actionMarche.m_Flags
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: actionSaut.m_Name
+    value: Action Saut
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: actionSaut.m_Type
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: actionSaut.m_ExpectedControlType
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: actionSaut.m_Id
+    value: 69582d0d-5e63-48f3-bb7f-b834e6b0b7e1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: actionSaut.m_Processors
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: actionSaut.m_Interactions
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: actionSaut.m_SingletonActionBindings.Array.size
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: actionSaut.m_SingletonActionBindings.Array.data[0].m_Name
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: actionSaut.m_SingletonActionBindings.Array.data[0].m_Id
+    value: fc17e4e4-2de5-4d1a-9d3b-0e47fdc77488
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: actionSaut.m_SingletonActionBindings.Array.data[0].m_Path
+    value: <Keyboard>/w
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: actionSaut.m_SingletonActionBindings.Array.data[0].m_Interactions
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: actionSaut.m_SingletonActionBindings.Array.data[0].m_Processors
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: actionSaut.m_SingletonActionBindings.Array.data[0].m_Groups
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: actionSaut.m_SingletonActionBindings.Array.data[0].m_Action
+    value: Action Saut
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: actionSaut.m_SingletonActionBindings.Array.data[0].m_Flags
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: actionSaut.m_SingletonActionBindings.Array.data[1].m_Name
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: actionSaut.m_SingletonActionBindings.Array.data[1].m_Id
+    value: d9bcebde-c624-40b5-b124-9f392adea118
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: actionSaut.m_SingletonActionBindings.Array.data[1].m_Path
+    value: <Keyboard>/space
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: actionSaut.m_SingletonActionBindings.Array.data[1].m_Interactions
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: actionSaut.m_SingletonActionBindings.Array.data[1].m_Processors
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: actionSaut.m_SingletonActionBindings.Array.data[1].m_Groups
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: actionSaut.m_SingletonActionBindings.Array.data[1].m_Action
+    value: Action Saut
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: actionSaut.m_SingletonActionBindings.Array.data[1].m_Flags
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: actionSaut.m_SingletonActionBindings.Array.data[2].m_Name
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: actionSaut.m_SingletonActionBindings.Array.data[2].m_Id
+    value: 943d5d20-9fad-4fa3-baf2-9805dcfc2705
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: actionSaut.m_SingletonActionBindings.Array.data[2].m_Path
+    value: <Keyboard>/upArrow
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: actionSaut.m_SingletonActionBindings.Array.data[2].m_Interactions
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: actionSaut.m_SingletonActionBindings.Array.data[2].m_Processors
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: actionSaut.m_SingletonActionBindings.Array.data[2].m_Groups
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: actionSaut.m_SingletonActionBindings.Array.data[2].m_Action
+    value: Action Saut
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: actionSaut.m_SingletonActionBindings.Array.data[2].m_Flags
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: actionSaut.m_Flags
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: accelerationMarche
+    value: 6
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: desaccelerationMarche
+    value: 15
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: vitesseMarcheMax
+    value: 7
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: estAuSol
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: tempsSaut
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: intensiteGravite
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: accelerationSaut
+    value: 300
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: vitesseSautMax
+    value: 8
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: dureeAccelerationSaut
+    value: 0.22
+    objectReference: {fileID: 0}
+  m_ExcludedProperties: []
+  m_CoupledType:
+    m_NativeTypeID: 0
+    m_ManagedTypePPtr: {fileID: 0}
+    m_ManagedTypeFallback: 
+  m_CoupledProperties: []
